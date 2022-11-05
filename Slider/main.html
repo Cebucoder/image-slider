@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>IMage Slider</title>
+</head>
+<body>
+
+	<div class="slideshow-container">
+		
+		<div class="mySlides fade">
+			<div class="numbertext">1 / 5</div>
+			<img src="back1.jpg" style="width:100%">
+		</div>
+
+		<div class="mySlides fade">
+			<div class="numbertext">2 / 5</div>
+			<img src="back2.jpg" style="width:100%">
+		</div>
+
+		<div class="mySlides fade">
+			<div class="numbertext">3 / 5</div>
+			<img src="back3.jpg" style="width:100%">
+		</div>
+
+		<div class="mySlides fade">
+			<div class="numbertext">4 / 5</div>
+			<img src="back4.jpg" style="width:100%">
+		</div>
+
+		<div class="mySlides fade">
+			<div class="numbertext">5 / 5</div>
+			<img src="back5.jpg" style="width:100%">
+		</div>
+
+
+		<!-- next and prev button -->
+
+		<div class="btn">
+			<a class="prev" onclick="plusSlides(-1)">❮</a>
+			<a class="prev" onclick="plusSlides(1)">❯</a>
+		</div>
+
+	</div>
+
+<!--  -->
+<br>
+<div style="text-align: center">
+	<span class="dot" onclick="currentSlide(1)"></span>
+	<span class="dot" onclick="currentSlide(2)"></span>
+	<span class="dot" onclick="currentSlide(3)"></span>
+	<span class="dot" onclick="currentSlide(4)"></span>
+	<span class="dot" onclick="currentSlide(5)"></span>
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
